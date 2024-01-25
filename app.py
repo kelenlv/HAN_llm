@@ -28,8 +28,8 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
-    config = AutoConfig.from_pretrained("kelenlv/HAN_llm")
-    model = AutoModelForCausalLM.from_config(config)
+    config = AutoConfig.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
+    model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
     # model = (
     #     AutoModelForCausalLM.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
     #     .to(torch.bfloat16)
