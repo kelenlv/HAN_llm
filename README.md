@@ -1,4 +1,4 @@
-# <div align="center">HAN_llm
+# <div align="center">HAN_llm (漢之眼)
 
 <div align="center">
   <a href="https://github.com/kelenlv/HAN_llm.git"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
