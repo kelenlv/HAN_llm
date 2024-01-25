@@ -9,7 +9,7 @@ Please refer to these links below for more information:
 
 from dataclasses import asdict
 
-from modelscope import AutoModelForCausalLM, AutoTokenizer
+from modelscope import AutoModelForCausalLM, AutoTokenizer, AutoConfig
 #from modelscope import GenerationConfig
 
 import streamlit as st
@@ -28,11 +28,13 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
-    model = (
-        AutoModelForCausalLM.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
-        .to(torch.bfloat16)
-        .cuda()
-    )
+    config = AutoConfig.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
+    model = AutoModelForCausalLM.from_config(config)
+    # model = (
+    #     AutoModelForCausalLM.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
+    #     .to(torch.bfloat16)
+    #     .cuda()
+    # )
     tokenizer = AutoTokenizer.from_pretrained("kelenlv/HAN_llm", trust_remote_code=True)
     return model, tokenizer
 
