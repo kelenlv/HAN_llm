@@ -79,7 +79,7 @@ def main():
     user_avator = "images/user.png"
     robot_avator = "images/robot.png"
 
-    st.title("食神——菜谱小助手 by 张小白")
+    st.title("漢之眼")
 
     generation_config = prepare_generation_config()
 
