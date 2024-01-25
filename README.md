@@ -4,8 +4,8 @@
   <a href="https://github.com/kelenlv/HAN_llm.git"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue"></a> &ensp;
   <a href="https://www.modelscope.cn/models/kelenlv/HAN_llm/summary"><img src="https://img.shields.io/static/v1?label=Model&message=ModelScope&color=green&"></a> &ensp;
   <a href=""><img src="https://img.shields.io/static/v1?label=Demo &message=OpenXLab&color=yellow"></a> &ensp;
-  <a href="https://www.modelscope.cn/models/kelenlv/HAN_llm/summary"><img src="https://img.shields.io/static/v1?label=Model-4bit&message=ModelScope&color=2&"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Demo-4bit &message=OpenXLab&color=1"></a> &ensp;
+  <a href="https://www.modelscope.cn/models/kelenlv/HAN_llm_4bits/summary"><img src="https://img.shields.io/static/v1?label=Model-4bits&message=ModelScope&color=pink&"></a> &ensp;
+  <a href=""><img src="https://img.shields.io/static/v1?label=Demo-4bits &message=OpenXLab&color=1"></a> &ensp;
 </div>
 
 ---
@@ -13,7 +13,7 @@
 [Classical Chinese Translation Corpus](https://github.com/scagin/cctc)
 
 ## Contributors
-@@
+@[waurblove](https://github.com/waurblove) @[yansuoyuli](https://github.com/yansuoyuli)
 
 ## Acknowledgements
 - Thanks to [OpenXLab](https://github.com/huggingface/diffusers) for their wonderful technical support and awesome collaboration!
